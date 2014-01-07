@@ -600,7 +600,7 @@ exe "hi! Todo"           .s:fmt_bold   .s:fg_magenta.s:bg_none
 " Extended highlighting "{{{
 " ---------------------------------------------------------------------
 if      (g:solarized_visibility=="high")
-    exe "hi! SpecialKey" .s:fmt_revr   .s:fg_red    .s:bg_none
+    exe "hi! SpecialKey" .s:fmt_none   .s:fg_blue   .s:bg_none
     exe "hi! NonText"    .s:fmt_bold   .s:fg_red    .s:bg_none
 elseif  (g:solarized_visibility=="low")
     exe "hi! SpecialKey" .s:fmt_bold   .s:fg_base02 .s:bg_none
